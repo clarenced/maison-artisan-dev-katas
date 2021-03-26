@@ -88,7 +88,7 @@ class CartTest {
         cart.addBook("Harry Potter et la Coupe de feu");
         cart.addBook("Harry Potter et l'Ordre du Phénix");
         cart.addBook("Harry Potter et le Prince de sang-mêlé");
-        cart.addBook("Harry Potter et le Prince de sang-mêlé");
+        cart.addBook("Harry Potter et les Reliques de la Mort");
 
         assertEquals(3920, cart.getPrice("Clarence"));
     }
